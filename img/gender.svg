@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="380" viewBox="0 0 450 380">
+  <defs>
+    <mask id="cut-left">
+      <rect width="450" height="380" fill="#fff"/>
+      <circle cx="146" cy="208" r="44" fill="none" stroke="#000" stroke-width="11"/>
+      <path d="M146 252v68M124 296l22 26 22-26" fill="none" stroke="#000" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter"/>
+    </mask>
+    <mask id="cut-right">
+      <rect width="450" height="380" fill="#fff"/>
+      <circle cx="304" cy="276" r="44" fill="none" stroke="#000" stroke-width="11"/>
+      <path d="M304 232v-68M278 190h52" fill="none" stroke="#000" stroke-width="11" stroke-linecap="square"/>
+    </mask>
+  </defs>
+  <polygon fill="#00A6D6" mask="url(#cut-left)" points="221,10 10,190 72,190 72,370 221,370"/>
+  <polygon fill="#DF2685" mask="url(#cut-right)" points="229,10 292,65 292,20 352,20 352,118 440,190 378,190 378,370 229,370"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ИЛШ">
+  <title>ИЛШ — Исламская лингвистическая школа</title>
+  <style>.s{stroke:#14532d}.f{fill:#14532d}@media (prefers-color-scheme:dark){.s{stroke:#7fd6a0}.f{fill:#7fd6a0}}</style>
+  <g class="s" fill="none" stroke="#14532d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Арка-портал: вершина уходит за верхний край -->
+    <path d="M8 64V30C8 14 20 4 32 -4C44 4 56 14 56 30V64"/>
+    <!-- Внутренняя арка -->
+    <path d="M15 64V32C15 20 24 11 32 5C40 11 49 20 49 32V64" stroke-width="1.4" opacity=".55"/>
+    <!-- Открытая книга -->
+    <path d="M20 52Q26 49 32 52Q38 49 44 52V58Q38 55 32 58Q26 55 20 58Z"/>
+    <path d="M32 52V58" stroke-width="1.4"/>
+    <!-- Перо -->
+    <path d="M45 28C51 33 46 42 38 46C38 38 40 32 45 28Z"/>
+    <path d="M38 46L44 33" stroke-width="1.4"/>
+  </g>
+  <!-- Искра знания -->
+  <path class="f" d="M24 27L25.2 30.8L29 32L25.2 33.2L24 37L22.8 33.2L19 32L22.8 30.8Z" fill="#14532d"/>
+</svg>
